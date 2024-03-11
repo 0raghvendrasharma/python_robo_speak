@@ -4,7 +4,7 @@ if __name__ == '__main__':
     print("Hi! I am Karishma, your virtual assistant")
     while True:
         x = input("Enter how may I help you: ")
-        if x=="q":
+        if x=="exit": 
             break
         # Initialize the text-to-speech engine
         engine = pyttsx3.init()
